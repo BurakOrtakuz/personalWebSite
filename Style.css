@@ -4,13 +4,18 @@ body{
     background-attachment: fixed;
     background-size: contain;
     font-family: 'Montserrat', sans-serif;
+    
 
 }
 .banner{
-    border-style: solid;
-    border-color: aqua;
+
     overflow: hidden;
     white-space: nowrap;
+    
+}
+.banner img{
+    height: 500px;
+    overflow: hidden;
 }
 .menu{
     background-color:#51c4d3;
@@ -30,7 +35,7 @@ body{
     color:#51c4d3;
 }
 .footer{
-    color:azure;
+    color:#d8e3e7;
     margin-left: 10%;
     font-size:20px;
     
@@ -41,10 +46,55 @@ body{
     
 }
 .ana-metin{
-    background-color: azure;
+    background-color: #d8e3e7;
+    margin-top:4%;
+    margin-bottom: 4%;;
+    padding-bottom:15px;
+    min-height: 50px;
 }
 .resimler{
-    float: left;
+    margin-bottom:5px;
+
+}
+.ana-metin p:not(.resim-altı-yazı){
+    font-size: 22px;
+    text-indent: 40px;
+}
+.baslik{
+    padding-top: 10px;
+    margin:0px;
+}
+.resim-altı-yazı{
+    margin-bottom: 2px;
+    font-size:14px;
+
+}
+.link{
+    text-decoration:none;
+    color:#126e82;
+}
+.link:hover{
+    color:#132c33;
+}
+.korosel{
+    height: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0px;
+    padding:15px;
+}
+.korosel img{
+    height: 400px;
+    overflow: hidden;
+}
+#ortaokulBurak{
+    object-fit: scale-down;
+}
+.resimler2{
+    margin:0px;
+    padding:10px;
+    margin-right: 0px;
+
 }
 @media (max-width: 768px) { 
     .nav-item{
@@ -64,6 +114,7 @@ body{
     .sosyal{
         font-size:15px;
     }
+   
 }
 
 
