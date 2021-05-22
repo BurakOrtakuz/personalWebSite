@@ -96,6 +96,24 @@ body{
     margin-right: 0px;
 
 }
+.form{
+    padding-top: 15px;
+}
+
+.buton{
+    width: auto;
+    margin:10px;
+}
+.yazı-alanı{
+    width: 80%;
+    height: 80%;
+}
+.modal-content{
+    background-color: #d8e3e7;
+}
+.btn:hover{
+    color:#51c4d3; 
+}
 @media (max-width: 768px) { 
     .nav-item{
         margin-top :10px;
@@ -113,8 +131,11 @@ body{
     }
     .sosyal{
         font-size:15px;
+    }   
+    .btn{
+        text-align: left;
     }
-   
+    .giris{
+        width: 100%;
+    }
 }
-
-

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html php>
 <html>
 	<head>
 		<meta name= "keywords" content= "Burak Ortakuz, Web, Çeviri, Tempest, Satranç">
@@ -75,44 +75,67 @@
 				  
 				</div>
 		</nav>
-		<main class="ana-metin container">
-			<article>
-				<section class="container ">
-					<h2>
-						Burak Ortakuz'un Hayatı
-					</h2>
-					<p>
-						Burak Ortakuz 26 Eylül 2000 Karabük ilinin merkezine bağlı Kapullu mahallesinde dünyaya geldi. Şehit Mehmet Esen Anaokulunda
-						az miktar İngilizce, matematik ve Türkçe dersleri gördü. İlkokulunun ilk dört senesini Esentepe İlköğretim Okulu'nda tamamladı. Bu yıllarında 
-						satrança hakkında okul öğretmenlerinden destek gördü. İlk turnuvasına 3. sınıfta katıldı. 5. sınıfını taşınma nedeni ile Şehit Nurettin Seki İlköğretim
-						okulunda tamamladı. Yine ilk madalyasını 5. sınıfta 29 Ekim Cumhuriyet Bayramı spor turnuvasında 1. olarak kazandı. 
-					</p>
-				</section>
-				<section class="container">
-					<p>
-						Ortaokulunu Yavuz Sultan Selim ortaokulunda 
-						tamamladı. Bu senelerinde yine turnuvalara katılarak bir sürü madalya kazandı. Aynı zamanda Türkiye geneli satranç şampiyonasında Karabük'ü, Karabük'te gerçekleşen bölge geneli turnuvasında 
-						temsil etti. Lise sınavı olan teog sınavlarında 433 puan alarak Safranbolu Anadolu Lisesi'i kazandı. 
-					</p>
-				</section>
-				<section class="container">
-					<p>
-						10. sınıfta Amerikan Kültür İngilizce kursalarına giderek
-						A-2 İngilizce belgesini aldı. 11. Sınıfta arkadaşları ile birlikte Türkiye Satranç turnuvasının Karabük ayağını kazandı ve bölge turnuvasına Düzce'ye gitti.
-						Lakin yine derece kazanamadı. Üniversite sınavları olan Tyt-Yks sınavlarında 63000. oldu lakin tercih yapmadı. İkinci senesinde 70000. olarak sıralamada geriye düştü
-						ama pişmanlığı kalmadığı için ve tekrar çalışmak istemediği için çok istediği bilgisayar mühendisliği bölümünü tercihlerine yazdı. Bunun sonucunda
-						Sakarya Üniversite'si bilgisayar mühendisliği bölümü ikinci öğretimi kazandı. 
-					</p>					
-				</section>
-				<section class="container">
-					<p>
-						Öncelikle hazırlık okuyarak hem üniversite ortamına ısındı hem de ingilizcesini geliştirdi.
-						Hazırlık bölümü esnasında <a href="https://tempestfansub.com/" class="link" target="_blank" >Tempest Fansub</a>'a katılarak ingilizcesini daha da geliştirerek hazırlık 
-						bölümünü 85 puan ile tamamladı.  
-					</p>
-				</section>
-			</article>
-		</main>
+		<main>
+            <div class="container ana-metin">
+                <div class="row">
+				<table>
+					<tr>
+						<td>Adı Soyadı:</td>
+						<td>
+							<b>
+								<?php error_reporting(0);
+									echo $_POST['ad']."&nbsp;".$_POST['soyisim'];
+								?>
+							<b>
+
+						</td>
+					</tr>
+					<tr>
+						<td>E-Posta:</td>
+						<td>
+							<?php error_reporting(0);
+								echo $_POST['eposta'];
+							?>
+						</td>
+					</tr>
+					<tr>
+						<td>Cinsiyet:</td>
+						<td>
+							<?php error_reporting(0);
+								echo $_POST['cinsiyet'];
+							?>
+						</td>
+					</tr>
+					<tr>
+						<td>Doğum Tarihi:</td>
+						<td>
+							<?php error_reporting(0);
+								echo $_POST['dogum-tarihi'];
+							?>
+						</td>
+					</tr>
+					<tr>
+						<td>Bölge:</td>
+						<td>
+							<?php error_reporting(0);
+								echo $_POST['bolge'];
+							?>
+						</td>
+					</tr>
+					<tr>
+						<td>Yorum:</td>
+						<td>
+							<?php error_reporting(0);
+								echo $_POST['yazı'];
+							?>
+						</td>
+					</tr>
+				</table>
+
+
+                </div>
+            </div>
+        </main>
 		
 		
 		<footer class="page">
