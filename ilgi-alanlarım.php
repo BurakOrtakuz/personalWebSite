@@ -81,7 +81,7 @@
 		  
 		<div class="modal-dialog">
 			<div class="modal-content ">
-				<form action="#" class=giris method="POST">
+				<form action="kontrol.php" class=giris method="POST">
 					<div class="modal-header">
 						<h5 class="modal-title modal-baslik" id="exampleModalLabel">Giriş</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -118,7 +118,7 @@
 		
 		<main class="container ana-metin">
 			<?php				
-				$api_key="RGAPI-dec956bc-7db7-47cb-bb32-ba014319d648";
+				$api_key="RGAPI-106d88ec-bc5f-4208-a865-6dd630cf2010";
 				$url2='https://tr1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/kmZ1NQ3zS5U7R1av4yOgnM6GD6fv0GWNU5kusG5gk98j-Q?api_key='.$api_key;
 				$url ='https://tr1.api.riotgames.com/lol/league/v4/entries/by-summoner/kmZ1NQ3zS5U7R1av4yOgnM6GD6fv0GWNU5kusG5gk98j-Q?api_key=' .$api_key;
 				$open = file_get_contents($url);

@@ -1,0 +1,166 @@
+body{
+    background-color: #330055;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.footer p{
+    margin:0px;
+}
+.footer{
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.banner{
+
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.banner img{
+    height: 500px;
+    overflow: hidden;
+}
+.menu{
+    background-color:#51c4d3;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link{
+    color:#132c33;
+}
+.nav-item:hover{
+    background-color: #132c33;
+}
+.nav-link:hover{
+    color:#51c4d3;
+}
+.navbar-brand:hover{
+    background-color: #132c33;
+    color:#51c4d3;
+}
+.footer-baslik{
+    color:#d8e3e7;
+    margin-left: 10%;
+    font-size:20px;
+    margin-bottom: 0px;
+}
+.sosyal{
+    font-size:20px;
+    margin:7px;
+    
+}
+.ana-metin{
+    background-color: #d8e3e7;
+    margin-top:4%;
+    margin-bottom: 4%;;
+    padding-bottom:15px;
+    min-height: 50px;
+}
+.resimler{
+    margin-bottom:5px;
+
+}
+.ana-metin p:not(.resim-altı-yazı){
+    font-size: 22px;
+    text-indent: 40px;
+}
+.baslik{
+    padding-top: 10px;
+    margin:0px;
+}
+.resim-altı-yazı{
+    margin-bottom: 2px;
+    font-size:14px;
+
+}
+.link{
+    text-decoration:none;
+    color:#126e82;
+}
+.link:hover{
+    color:#132c33;
+}
+.korosel{
+    height: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0px;
+    padding:15px;
+}
+.korosel img{
+    height: 400px;
+    overflow: hidden;
+}
+#ortaokulBurak{
+    object-fit: scale-down;
+}
+.resimler2{
+    margin:0px;
+    padding:10px;
+    margin-right: 0px;
+
+}
+.form{
+    padding-top: 15px;
+}
+
+.buton{
+    width: auto;
+    margin:10px;
+}
+.yazı-alanı{
+    width: 80%;
+    height: 80%;
+}
+.modal-content{
+    background-color: #d8e3e7;
+}
+.btn:hover{
+    color:#51c4d3; 
+}
+.modal-yazı{
+    background-color: #132c33;
+    color:#51c4d3
+}
+.btn:focus{
+    border-style: none;
+}
+.btn{
+    border-style: none;
+}
+.nav-link:focus{
+    border:none;
+    color:#132c33;
+    box-shadow: none;
+}
+.modal-baslik{
+    color:#51c4d3;
+}
+@media (max-width: 992px) { 
+    .nav-item{
+        margin-top :10px;
+        transition: all .5s ease;
+    }
+    .nav-item:hover{
+        background-color:#132c33;
+        padding-left: 30px;
+    }
+    .nav-link:hover{
+        color:#51c4d3;
+    }
+    .footer{
+        font-size:15px;
+    }
+    .sosyal{
+        font-size:15px;
+    }   
+    .btn{
+        text-align: left;
+    }
+    .giris{
+        width: 100%;
+    }
+}

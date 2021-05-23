@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -81,7 +82,7 @@
 		  
 		<div class="modal-dialog">
 			<div class="modal-content ">
-				<form action="#" class=giris method="POST">
+				<form action="kontrol.php" class=giris method="POST">
 					<div class="modal-header">
 						<h5 class="modal-title modal-baslik" id="exampleModalLabel">Giriş</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -117,9 +118,10 @@
 		</div>
 		
 		<main class="container ana-metin">
+			
 			<h1> Hoşgeldiniz:
 				<?php ;
-					$deger = $_POST['eposta'];
+					$deger =$_SESSION['eposta'];
 					$bolunmus = explode("@", $deger);
 					echo $bolunmus[0];
 				?>

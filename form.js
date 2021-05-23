@@ -1,4 +1,4 @@
-            var mail = document.getElementById("eposta").value;
+var mail = document.getElementById("eposta").value;
 			var regex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 			
 			const kontrol = form =>
