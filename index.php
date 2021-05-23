@@ -59,7 +59,7 @@
 							<a class="nav-link" href="mirasimiz.html">Mirasımız</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="ilgi-alanlarım.html" >İlgi Alanlarım</a>
+							<a class="nav-link " href="ilgi-alanlarım.php" >İlgi Alanlarım</a>
 						</li>
 						
 						</ul>
@@ -115,102 +115,91 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="container ana-metin">
-			<div class="container">
-				<div class="row">
-					<h1>Burak Ortakuz</h1>
+		<main class="container ana-metin">
+			<article class="container">
+				<section class="row">
+					<h1>
+						Burak Ortakuz
+					</h1>
 					<p>
 						Benim adım Burak Ortakuz. Eylül 2000 yılında Karabük'te doğdum. Kendimden küçük bir kardeşim var ismi Tolga Mete.
 						Küçükken mahallemizde futbol gibi oyunlar oynamayı ve çizgi film oynamayı severdim. Anaokulunda iken bir gün babamın
 						eve satranç takımı getirmesi ile beraber yeni bir hobi edinmiş oldum.<br> 
 					</p>
-				</div>
-				<div class="row">
-				  <div class="col-md-4">
-					<img src="resimler/satranc3.jpg" class="img-fluid float-md-start resimler" title="Turnuvada rakibini bekleyen Burak Ortakuz" alt="Turnuvada rakibini bekleyen Burak Ortakuz">
-					<p class="text-center resim-altı-yazı text-muted"> 
-						Burak Ortakuz 3. Sınıftaki Turnuvada
-					</p>
-				  </div>
-				  <div class="col">
-					<p>
+				</section>
+				<section class="row">
+					<figure class="col-md-5">
+						<img src="resimler/satranc3.jpg" class="img-fluid float-md-start resimler" title="Turnuvada rakibini bekleyen Burak Ortakuz" alt="Turnuvada rakibini bekleyen Burak Ortakuz">
+						<figcaption class="text-center resim-altı-yazı text-muted">
+							Burak Ortakuz 3. Sınıftaki Turnuvada
+						</figcaption>
+					</figure>
+					<p class="col">
 						İlkokulumu Esentepe İlköğretim Okulu'nda okudum. Okul yıllarında öğretmenlerimin ve babamın katkıları ile oldukça başarılı bir ilkokul dönemi geçirdim.
 						Okulun ilk yıllarında satranç konusunda kendimi geliştirme fırsatı buldum ve okulun satranç kulübüne katıldım. 3. sınıfta İlk defa bir satranç turnuvasına katıldım. Bu turnuvaya 
 						katılmama rağmen bu turnuva aslında 4-5. sınıflar için yapılan bir turnuvaydı. Buna rağmen son maçımı kazanmam halinde 
 						2. olacaktım ama oldukça çekişmeli bir mücadele ardından malesef olamadım. 4. sınıfta okul
 						öğretmenim öncülüğünde bir süre tiyatro da yaptım. 	
 					</p>
-				  </div>
-				</div>
-				<div class="row ">
+				</section>
+				<section class="row">
 					<p>
 						4. sınıfta satranç hocamız okul değiştirdiğinden dolayı turnuvaya katılma imkanım olmadı. 5. sınıfa geçtiğimde 
 						bulunduğum okuldan 100.Yıl mahallesine taşınmamız sebebi ile Şehit Nurettin Seki okuluna gittim. Orada yeniden 
 						bir satranç öğretmenimiz vardı ve turnuvalara katılma fırsatı bulmuştum. Katıldığım ilk turnuvada -29 Ekim Cumhuriyet
 						Bayramı Turnuvası- 7 maçın 7'sini de kazanarak altın madalyayı kazanma fırsatı buldum.<br>
 					</p>
-				</div>
-				<div class="row ">
-					
-					<div class="col-md-4 ">
-						<img src="resimler/satranc2.jpg"class="img-fluid  " title="Ödül Töreninde Burak Ortakuz" alt="Ödül Töreninde Burak Ortakuz">
-						<p class="text-center resim-altı-yazı text-muted">
+				</section>
+				<section class="row">
+					<figure class="col-md-5">
+						<img src="resimler/satranc2.jpg"class="img-fluid resimler" title="Ödül Töreninde Burak Ortakuz" alt="Ödül Töreninde Burak Ortakuz">
+						<figcaption class="text-center resim-altı-yazı text-muted">
 							Burak Ortakuz ödül Töreninde
-						</p>
-					</div>
-					<div class="col order-md-first">
-						<p>
-							Daha sonraları katıldığım turnuvalarda
-							yine bir sürü madalya ve 2 adet kupa kazanmayı başardım. Lise sınavı olarak ilk defa TEOG sınavı yaşanıyordu ve o sınav sonucunda
-							Safranbolu Anadolu Lisesi'ni kazanmayı başardım. Orada yine satranç kariyerime devam ettim ve 11. sınıfta Türkiye geneli satranç
-							turnuvasının Karabük ayağını lisedeki satranç ekibimiz ile kazandık.Bunun üzerine okul öğretmenimiz ve ekibimiz ile birlikte
-							Düzce'ye bölge turnuvasına katılmak için gittik. Orada malesef derece yapamadık ama güzel bir geziydi. 
-						</p>
-					</div>
-					
-				</div>
-				<div class="row">
-					
-					<div class="col-md-4">
-						<img src="resimler/satranc4.jpg"class="img-fluid float-md-start" title="Kupa Töreninde Burak Ortakuz ve Arkadaşları" alt="Kupa Töreninde Burak Ortakuz ve Arkadaşları">
-						<p class="text-center resim-altı-yazı text-muted">
+						</figcaption>
+					</figure>
+					<p class="col order-md-first">
+						Daha sonraları katıldığım turnuvalarda
+						yine bir sürü madalya ve 2 adet kupa kazanmayı başardım. Lise sınavı olarak ilk defa TEOG sınavı yaşanıyordu ve o sınav sonucunda
+						Safranbolu Anadolu Lisesi'ni kazanmayı başardım. Orada yine satranç kariyerime devam ettim ve 11. sınıfta Türkiye geneli satranç
+						turnuvasının Karabük ayağını lisedeki satranç ekibimiz ile kazandık.Bunun üzerine okul öğretmenimiz ve ekibimiz ile birlikte
+						Düzce'ye bölge turnuvasına katılmak için gittik. Orada malesef derece yapamadık ama güzel bir geziydi.
+					</p>
+				</section>
+				
+				<section class="row">
+					<figure class="col-md-5">
+						<img src="resimler/satranc4.jpg"class="img-fluid float-md-start resimler" title="Kupa Töreninde Burak Ortakuz ve Arkadaşları" alt="Kupa Töreninde Burak Ortakuz ve Arkadaşları">
+						<figcaption class="text-center resim-altı-yazı text-muted">
 							Burak Ortakuz ve Takımı Ödül Töreninde
-						</p>
-					</div>
-					<div class="col">
-						<p>
-							Üniversite sınavına ilk 
-							denememde 63.000 ile istediğim dereceyi elde edemedim. İkinci denemeye gireceğim sene yeni hobim olan animeler ile tanıştım.
-							Küçüklüğümde sürekli çizgi film izlemekten zevk alırdım ve bunların anime olduğunu öğrendikten sonra anime izlemeye başladım.
-							İkinci denememde 70.000 oldum ama daha fazla çalışmak istemediğimden her zaman hayalim olan mesleği yukarıdan aşağı tercih 
-							olarak yazdım. Bu şekilde Sakarya Üniversite'si bilgisayar mühendisliği 2.öğretim bölümünü kazandım. 1 Sene hazırlık okudum.
-							Bu sırada <a href="https://tempestfansub.com/" class="link" target="_blank" >Tempest Fansub</a>'a katılarak anime çevirmeni oldum. Corona virüs yüzünden okulumuz uzaktan devam ediyor
-							ve 1. sınıf bitmek üzere.
-						</p>
-					</div>
-				</div>
-			</div>	
-		</div>
+						</figcaption>
+					</figure>
+					<p class="col">
+						Üniversite sınavına ilk 
+						denememde 63.000 ile istediğim dereceyi elde edemedim. İkinci denemeye gireceğim sene yeni hobim olan animeler ile tanıştım.
+						Küçüklüğümde sürekli çizgi film izlemekten zevk alırdım ve bunların anime olduğunu öğrendikten sonra anime izlemeye başladım.
+						İkinci denememde 70.000 oldum ama daha fazla çalışmak istemediğimden her zaman hayalim olan mesleği yukarıdan aşağı tercih 
+						olarak yazdım. Bu şekilde Sakarya Üniversite'si bilgisayar mühendisliği 2.öğretim bölümünü kazandım. 1 Sene hazırlık okudum.
+						Bu sırada <a href="https://tempestfansub.com/" class="link" target="_blank" >Tempest Fansub</a>'a katılarak anime çevirmeni oldum. Corona virüs yüzünden okulumuz uzaktan devam ediyor
+						ve 1. sınıf bitmek üzere.
+					</p>
+				</section>
+			</article>
+		</main>
 		
-		<footer >
-			<div class="container bg-dark p-0 py-3">
-				<div class="row col-12 ">
-						<div class="col-8 col-md-8  my-auto">
-							<p class="footer">
-								Burak Ortakuz'un Kişisel Web Sitesi
-							</p>
-						</div>
-						<div class="col-4 col-md-4 ms-auto ">
-							<p>
-								<a href="https://www.facebook.com/burak.ortakuz.1" target="_blank"> <i class="bi bi-facebook  sosyal float-end" style="color:#1877F2;"></i></a>
-								<a href="https://www.instagram.com/burakortakuz78/?hl=tr" target="_blank"><i class="bi bi-instagram  sosyal float-end" style="color: #E1306C;"></i></a>
-								<a href="https://twitter.com/BurakOrtakuz78" target="_blank"><i class="bi bi-twitter  sosyal float-end" style="color: #1DA1F2;"></i></a>	
-							</p>
-						</div>		
-				</div>	
-			
-			</div>
+		
+		<footer class="container bg-dark footer ">			
+			<div class="container row ">
+				<div class="col-8 ">
+					<p class="footer-baslik ">
+						Burak Ortakuz'un Kişisel Web Sitesi
+					</p>
+				</div>
+				<div class="col-4 ms-auto text-end">					
+					<a href="https://www.facebook.com/burak.ortakuz.1" target="_blank"> <i class="bi bi-facebook  sosyal " style="color:#1877F2;"></i></a>
+					<a href="https://www.instagram.com/burakortakuz78/?hl=tr" target="_blank"><i class="bi bi-instagram  sosyal" style="color: #E1306C;"></i></a>
+					<a href="https://twitter.com/BurakOrtakuz78" target="_blank"><i class="bi bi-twitter  sosyal" style="color: #1DA1F2;"></i></a>					
+				</div>		
+			</div>				
 		</footer>
 		<script  src="bootstrap/js/bootstrap.min.js"></script>
 	</body>

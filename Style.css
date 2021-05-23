@@ -7,6 +7,13 @@ body{
     
 
 }
+.footer p{
+    margin:0px;
+}
+.footer{
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
 .banner{
 
     overflow: hidden;
@@ -34,11 +41,11 @@ body{
     background-color: #132c33;
     color:#51c4d3;
 }
-.footer{
+.footer-baslik{
     color:#d8e3e7;
     margin-left: 10%;
     font-size:20px;
-    
+    margin-bottom: 0px;
 }
 .sosyal{
     font-size:20px;
@@ -132,7 +139,7 @@ body{
 .modal-baslik{
     color:#51c4d3;
 }
-@media (max-width: 768px) { 
+@media (max-width: 992px) { 
     .nav-item{
         margin-top :10px;
         transition: all .5s ease;
