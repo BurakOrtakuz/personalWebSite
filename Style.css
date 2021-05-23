@@ -114,6 +114,24 @@ body{
 .btn:hover{
     color:#51c4d3; 
 }
+.modal-yazı{
+    background-color: #132c33;
+    color:#51c4d3
+}
+.btn:focus{
+    border-style: none;
+}
+.btn{
+    border-style: none;
+}
+.nav-link:focus{
+    border:none;
+    color:#132c33;
+    box-shadow: none;
+}
+.modal-baslik{
+    color:#51c4d3;
+}
 @media (max-width: 768px) { 
     .nav-item{
         margin-top :10px;

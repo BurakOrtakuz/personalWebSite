@@ -81,9 +81,9 @@
   			
 			<div class="modal-dialog">
 				<div class="modal-content ">
-					<form action="#" class=giris method="POST">
+					<form action="giris.php" class=giris method="POST">
 						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Giriş</h5>
+							<h5 class="modal-title modal-baslik" id="exampleModalLabel">Giriş</h5>
 							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 						<div class="modal-body">
@@ -93,7 +93,7 @@
 										Email:
 									</td>
 									<td>
-										
+										<input type="email" id="eposta"  name="eposta" placeholder="Mail Adresiniz" required>
 									</td>
 								</tr>
 								<tr>
@@ -101,14 +101,14 @@
 										Şifre:
 									</td>
 									<td>
-										
+										<input type="password" id="sifre"  name="sifre" placeholder="Şifreniz" required>
 									</td>
 								</tr>
 							</table>
 						</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary">Save changes</button>
+							<button type="button" class="btn modal-yazı" data-bs-dismiss="modal">Kapat</button>
+							<button type="submit" class="btn modal-yazı">Gönder</button>
 						</div>
 					</form>
 					

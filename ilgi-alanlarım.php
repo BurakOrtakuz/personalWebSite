@@ -34,7 +34,7 @@
 					<img src="resimler/Burak4.jpg" class="d-block w-100" id="ortaokulBurak" alt="Ortaokulda Burak Ortakuz">
 				  </div>
 				  <div class="carousel-item">
-					<img src="resimler/Burak5.JPG" class="d-block w-100" alt="Lisede Burak Ortakuz">
+					<img src="resimler/Burak5.Jpg" class="d-block w-100" alt="Lisede Burak Ortakuz">
 				  </div>
 				</div>
 			  </div>
@@ -81,7 +81,7 @@
 		  
 		<div class="modal-dialog">
 			<div class="modal-content ">
-				<form action="giris.php" class=giris method="POST">
+				<form action="#" class=giris method="POST">
 					<div class="modal-header">
 						<h5 class="modal-title modal-baslik" id="exampleModalLabel">Giriş</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -115,45 +115,72 @@
 			</div>
 		</div>
 		</div>
-		<main class="ana-metin container">
+		
+		<main class="container ana-metin">
+			<?php				
+				$api_key="RGAPI-dec956bc-7db7-47cb-bb32-ba014319d648";
+				$url2='https://tr1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/kmZ1NQ3zS5U7R1av4yOgnM6GD6fv0GWNU5kusG5gk98j-Q?api_key='.$api_key;
+				$url ='https://tr1.api.riotgames.com/lol/league/v4/entries/by-summoner/kmZ1NQ3zS5U7R1av4yOgnM6GD6fv0GWNU5kusG5gk98j-Q?api_key=' .$api_key;
+				$open = file_get_contents($url);
+				$open2 =file_get_contents($url2);
+				$ustalık =json_decode($open2,true);
+				$bilgiler = json_decode($open, true);
+
+				$sampiyonNumaraları = array("78","202","25","99","40","497","555","412","16","53");
+				$sampiyonUstalıkları= array();
+				$y =0;
+				foreach($ustalık as $key => $championId){
+						
+					for($i =0; $i<10; $i++ ){
+						if($sampiyonNumaraları[$i]== $ustalık[$y]['championId']){
+							$sampiyonUstalıkları[$i]=$ustalık[$y]['championPoints'];
+							
+						}
+					}
+					$y=$y+1;
+				}				
+				
+			?>
 			<article>
-				<section class="container ">
-					<h2>
-						Burak Ortakuz'un Hayatı
-					</h2>
+				<section class="container">
+					<h3>
+						Oyunlar
+					</h3>
 					<p>
-						Burak Ortakuz 26 Eylül 2000 Karabük ilinin merkezine bağlı Kapullu mahallesinde dünyaya geldi. Şehit Mehmet Esen Anaokulunda
-						az miktar İngilizce, matematik ve Türkçe dersleri gördü. İlkokulunun ilk dört senesini Esentepe İlköğretim Okulu'nda tamamladı. Bu yıllarında 
-						satrança hakkında okul öğretmenlerinden destek gördü. İlk turnuvasına 3. sınıfta katıldı. 5. sınıfını taşınma nedeni ile Şehit Nurettin Seki İlköğretim
-						okulunda tamamladı. Yine ilk madalyasını 5. sınıfta 29 Ekim Cumhuriyet Bayramı spor turnuvasında 1. olarak kazandı. 
+						Oyunlarla ilk olarak babam ben daha küçükken aldığı ateri ile tanıştım. O zamanlar mario contra gibi oyunları oynarken ilerleyen zamanlarda 
+						evimize alınan bilgisayar ile imkanlarım arttı lakin pek fazla oynamıyordum. Üstelik internetim 4 gb gibi gülünç bir değerle sınırlıydı bu sebeple
+						sadece internet üzerinden oynanan oyunları veya usb ile aldığım oyunları oynayabiliyordum.  Ortaokula geldiğimde taşınıp arkadaşlarımı kaybetmem ve yeni ortama 
+						hiç ayak uyduramamam beni bilgisayar oyunlarına daha da itti. Yakın çevremizde internet kafe varlığı oyunlara erişimimi ve çeşidini arttırdı. 
+						O dönemler metin2 cs.16 gibi oyunları hem evimde hem de internet kafade rekabetçi 
+						şekilde oynuyordum. 
+					</p>
+				</section>
+				<section class="container">
+					<p>	
+						Liseye geldiğimde ise okul arkadaşlarımın sınıfta sürekli bahsettiği League of Legend's oyunu dikkatimi çekti. İnternetimin artık sınırsız olması
+						bu tarz denemeler yapmama imkan tanıyordu. Oyunu açarken koyduğum hesap adı "<?php echo $bilgiler[0]['summonerName']; ?>". Arkasında öyle ahım şahım bir hikaye yok. O sıra yeni bulduğum bir isimdi ve
+						sinir bozucu 2 şeyin birleşimi olarak yapmıştım. İlk oynadığımda oyun bana zor gelmişti. Yavaş yavaş alışıyordum ama yeterli gelmiyordu. Doğru düzgün oynadığım ilk karakter
+						Miss Fortune idi. Lakin yine de istediğim seviyeye yakın bile değildi. O sıralar internet kesilmesi sebebi ile de ceza yemem işleri bitiren nokta olmuştu.
+						Oyunu ondan sonra sildim. Yaklaşık 1 yıl sonra youtubede gördüğüm bir içerik ile oyunu oynama isteğim geldi. Hemen indirdim ve oynamaya başladım.
+						Bu sefer internette oyun hakkında bir sürü içerik bulmam ve en önemlisi kardeşimin de bu oyuna başlaması beni oyuna iyice bağladı. O günden sonra git gide daha çok merak etmeye başladım.
+						Şampiyon tanıtımları, youtubeda oyun videoları, Türkiye ligi ve dünya şampiyonası ve en son çıkan şampiyonun olan Jhin'in bana çok uyması bu durumdaki en önemli etkenlerdi.
+						Daha sonra uzun süre Jhin oynadım. <?php echo $sampiyonUstalıkları[1]; ?> kadar ustalık puanına eriştim. Daha sonraları şampiyonun zayıflatılması üzerine çeşitli roller ve şampiyonlar üzerine 
+						denemeler yaparak kendime uygun bir şampiyon ararken youtube gördüğüm Poppy karakterine ısınmam nedeni ile onu oynamaya başladım. Şuan <?php echo $sampiyonUstalıkları[0]; ?> ile en yüksek puana 
+						sahip karakterim. Uzun süre üst koridorda kendilerini oynadım. Hatta öyle ki Türkiye'de ilk 50 sıralamaya girmiştim. Poppyi bu kadar sevmeme rağmen üst koridor bana zor geliyordu.
+						Bu sebeple altın ligine ulaştığım sıralar destek oynama başladım. Rol bana daha uygundu ve bir sürü şampiyonu da sevmiştim. Morgana <?php echo $sampiyonUstalıkları[2]; ?>, Lux <?php echo $sampiyonUstalıkları[3]; ?> 
+						, Janna <?php echo $sampiyonUstalıkları[4]; ?>,  Rakan <?php echo $sampiyonUstalıkları[5];?>, Pyke <?php echo $sampiyonUstalıkları[6]; ?>,
+						Thresh <?php echo $sampiyonUstalıkları[7]; ?>,Soraka <?php echo $sampiyonUstalıkları[8]; ?>, Blitzcrank <?php echo $sampiyonUstalıkları[9]; ?> gibi şampiyonları oynadım. Üstelik yanında güzel arkadaşlar da edindim. Önceki sezonu platin olarak bitirmeme rağmen 
+						bu şuan <?php echo $bilgiler[1]['tier'];echo " "; echo $bilgiler[1]['rank']; ?> ligindeyim. Metanın bana gülmemesi ve derslerime öncelik vermem de bunun etkenlerinden birisi. 
 					</p>
 				</section>
 				<section class="container">
 					<p>
-						Ortaokulunu Yavuz Sultan Selim ortaokulunda 
-						tamamladı. Bu senelerinde yine turnuvalara katılarak bir sürü madalya kazandı. Aynı zamanda Türkiye geneli satranç şampiyonasında Karabük'ü, Karabük'te gerçekleşen bölge geneli turnuvasında 
-						temsil etti. Lise sınavı olan teog sınavlarında 433 puan alarak Safranbolu Anadolu Lisesi'i kazandı. 
+						Benim oyun maceram şimdilik bu kadar umarım bu yaz elmas ligine yükselebilirim.
 					</p>
 				</section>
-				<section class="container">
-					<p>
-						10. sınıfta Amerikan Kültür İngilizce kursalarına giderek
-						A-2 İngilizce belgesini aldı. 11. Sınıfta arkadaşları ile birlikte Türkiye Satranç turnuvasının Karabük ayağını kazandı ve bölge turnuvasına Düzce'ye gitti.
-						Lakin yine derece kazanamadı. Üniversite sınavları olan Tyt-Yks sınavlarında 63000. oldu lakin tercih yapmadı. İkinci senesinde 70000. olarak sıralamada geriye düştü
-						ama pişmanlığı kalmadığı için ve tekrar çalışmak istemediği için çok istediği bilgisayar mühendisliği bölümünü tercihlerine yazdı. Bunun sonucunda
-						Sakarya Üniversite'si bilgisayar mühendisliği bölümü ikinci öğretimi kazandı. 
-					</p>					
-				</section>
-				<section class="container">
-					<p>
-						Öncelikle hazırlık okuyarak hem üniversite ortamına ısındı hem de ingilizcesini geliştirdi.
-						Hazırlık bölümü esnasında <a href="https://tempestfansub.com/" class="link" target="_blank" >Tempest Fansub</a>'a katılarak ingilizcesini daha da geliştirerek hazırlık 
-						bölümünü 85 puan ile tamamladı.  
-					</p>
-				</section>
+				
 			</article>
 		</main>
-		
 		
 		<footer class="page">
 			<div class="container bg-dark p-0 py-3">
